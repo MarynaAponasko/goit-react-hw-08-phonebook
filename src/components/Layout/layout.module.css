@@ -1,0 +1,26 @@
+.container {
+  padding: 0 40px;
+
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../../public/Speaking-on-the-Phone-Professionally-1536x1020.jpeg);
+  
+ 
+
+  background-attachment: fixed; */
+}
+.header {
+  background-color: blanchedalmond;
+  padding: 15px 50px;
+}
+.main {
+  background-color: aqua;
+}
