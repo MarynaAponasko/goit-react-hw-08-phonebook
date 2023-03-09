@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigationList {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.navigationItem {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
