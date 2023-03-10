@@ -13,15 +13,17 @@ const ContactList = () => {
   };
 
   return (
-    <ul className={s.list}>
-      {filteredContacts.map(contact => (
-        <ContactItem
-          contact={contact}
-          deleteContact={handlerDeleteContacts}
-          key={contact.id}
-        />
-      ))}
-    </ul>
+    <div className={s.listBox}>
+      <ul className={s.list}>
+        {filteredContacts.map(contact => (
+          <ContactItem
+            contact={contact}
+            deleteContact={handlerDeleteContacts}
+            key={contact.id}
+          />
+        ))}
+      </ul>
+    </div>
   );
 };
 

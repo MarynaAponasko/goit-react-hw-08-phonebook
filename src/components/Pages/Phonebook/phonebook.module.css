@@ -1,0 +1,19 @@
+.ContactsPage {
+  margin: 0;
+
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(248, 248, 248, 0.2),
+      rgba(243, 243, 243, 0.1)
+    ),
+    url(/public/pexels-evie-shaffer-2748756.jpg);
+
+  height: auto;
+  background-attachment: fixed;
+}
+.contactsContainer {
+  padding: 25px 50px;
+  text-align: center;
+}

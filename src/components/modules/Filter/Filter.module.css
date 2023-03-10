@@ -1,10 +1,4 @@
-.label {
-  display: flex;
-  margin-bottom: 10px;
+.findTitle {
   font-size: 20px;
-}
-.input {
-  margin-bottom: 20px;
-  padding: 5px;
-  font-size: 16px;
+  font-weight: 500;
 }
