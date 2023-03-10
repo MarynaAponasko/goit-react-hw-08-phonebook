@@ -1,0 +1,16 @@
+.signUpPage {
+  margin: 0;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.2),
+      rgba(47, 48, 58, 0.3)
+    ),
+    url(/public/stickies.jpg);
+  height: 80vh;
+  background-attachment: fixed;
+}
+.signUpContainer {
+  padding: 130px 50px;
+}

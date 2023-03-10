@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { Button } from '@mui/material';
 
 import s from './HomePage.module.css';
 
@@ -12,15 +13,16 @@ const HomePage = () => {
           Tired of looking for phone numbers on millions of small papers?
         </h1>
         <p className={s.text}>Use our app and save numbers on laptops</p>
-        <button
+        <Button
           type="button"
-          className={s.button}
+          variant="contained"
           onClick={() => {
             navigate('/signup');
           }}
+          size="large"
         >
           Try it now!
-        </button>
+        </Button>
       </div>
     </section>
   );
