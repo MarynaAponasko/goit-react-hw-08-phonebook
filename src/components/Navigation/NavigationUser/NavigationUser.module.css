@@ -1,0 +1,11 @@
+.userBox {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.invitationMsg {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -1,0 +1,9 @@
+.navigationItem {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+.navigationItem:global(.active) {
+  color: #1976d2;
+}
