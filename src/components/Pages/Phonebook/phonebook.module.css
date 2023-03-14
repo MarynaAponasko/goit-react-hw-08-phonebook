@@ -10,7 +10,7 @@
     ),
     url(/public/pexels-evie-shaffer-2748756.jpg);
 
-  height: auto;
+  height: 100vh;
   background-attachment: fixed;
 }
 .contactsContainer {
